@@ -614,7 +614,7 @@
 
         myPlacemark = new ymaps.Placemark([42.879091, 74.617910], { hintContent: 'Мы здесь!', balloonContent: 'Alim Management Consulting'
             });
-            
+            myMap.behaviors.disable('scrollZoom');
             myMap.geoObjects.add(myPlacemark);
         }
     </script>
