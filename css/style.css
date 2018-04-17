@@ -127,7 +127,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #header #logo h1 {
   font-size: 20px;
-  margin-top: 4px;
+  margin-top: 5px;
   padding: 0;
   
   font-family: "Montserrat", sans-serif;
@@ -149,6 +149,7 @@ h1, h2, h3, h4, h5, h6 {
 #header #logo h1 a span {
   line-height: normal;
   vertical-align: middle;
+  padding-left: 10px;
 }
 
 #header #logo img {
@@ -549,6 +550,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 #about .about-img img {
   margin-left: -15px;
   max-width: 100%;
+  box-shadow: 10px 10px 15px rgba(73, 78, 92, 0.1);
+  background: #fff;
+  transition: 0.4s;
 }
 
 @media (max-width: 768px) {
@@ -1001,13 +1005,13 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
 }
 
-#contact #google-map {
+#contact #yandex-map {
   height: 290px;
   margin-bottom: 20px;
 }
 
 @media (max-width: 576px) {
-  #contact #google-map {
+  #contact #yandex-map {
     margin-top: 20px;
   }
 }
